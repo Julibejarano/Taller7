@@ -1,0 +1,48 @@
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\appsettings.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.staticwebassets.endpoints.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.exe
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.deps.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.runtimeconfig.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.pdb
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.csproj.AssemblyReference.cache
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.AssemblyInfoInputs.cache
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.AssemblyInfo.cs
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.csproj.CoreCompileInputs.cache
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\scopedcss\bundle\Taller 7.styles.css
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.csproj.Up2Date
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\refint\Taller 7.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.pdb
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\Taller 7.genruntimeconfig.cache
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\ref\Taller 7.dll
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\bin\Debug\net9.0\Taller 7.staticwebassets.runtime.json
+C:\Users\julib\Desktop\Octavo semestre\Arquitectura de Software\Taller 7\Taller 7\obj\Debug\net9.0\compressed\4f8xpfs5nz-itrrk2t57q.gz
