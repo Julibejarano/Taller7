@@ -4,7 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Taller_7</RootNamespace>
+    <RootNamespace>Taller7</RootNamespace>
+    <AssemblyName>Taller7</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
