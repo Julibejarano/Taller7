@@ -1038,19 +1038,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\julib\\.nuget\\packages\\": {}
+    "C:\\Users\\fjliz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\julib\\Desktop\\Octavo semestre\\Arquitectura de Software\\Taller 7\\Taller 7\\Taller 7.csproj",
-      "projectName": "Taller 7",
-      "projectPath": "C:\\Users\\julib\\Desktop\\Octavo semestre\\Arquitectura de Software\\Taller 7\\Taller 7\\Taller 7.csproj",
-      "packagesPath": "C:\\Users\\julib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\julib\\Desktop\\Octavo semestre\\Arquitectura de Software\\Taller 7\\Taller 7\\obj\\",
+      "projectUniqueName": "C:\\ProyectosGit\\Taller7\\Taller7.csproj",
+      "projectName": "Taller7",
+      "projectPath": "C:\\ProyectosGit\\Taller7\\Taller7.csproj",
+      "packagesPath": "C:\\Users\\fjliz\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectosGit\\Taller7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\julib\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fjliz\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

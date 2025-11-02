@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f9fafb;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      margin-bottom: 20px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    input, button {
+      margin: 5px;
+      padding: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+    th, td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    button {
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Catálogo de Productos</h1>
+
+  <form id="productForm">
+    <input type="hidden" id="productId" />
+    <input type="text" id="name" placeholder="Nombre" required />
+    <input type="text" id="description" placeholder="Descripción" required />
+    <input type="number" id="price" placeholder="Precio" required />
+    <button type="submit">Guardar</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="productTable"></tbody>
+  </table>
+
+  <script>
+    const apiUrl =  "http://localhost:5034/api/products";
+
+
+    async function loadProducts() {
+      const res = await fetch(apiUrl);
+      const products = await res.json();
+      const table = document.getElementById("productTable");
+      table.innerHTML = "";
+      products.forEach(p => {
+        table.innerHTML += `
+          <tr>
+            <td>${p.name}</td>
+            <td>${p.description}</td>
+            <td>$${p.price.toFixed(2)}</td>
+            <td>
+              <button onclick="editProduct(${p.id})">Editar</button>
+              <button onclick="deleteProduct(${p.id})" style="background-color:#dc3545">Eliminar</button>
+            </td>
+          </tr>`;
+      });
+    }
+
+    async function saveProduct(e) {
+      e.preventDefault();
+      const id = document.getElementById("productId").value;
+      const name = document.getElementById("name").value;
+      const description = document.getElementById("description").value;
+      const price = parseFloat(document.getElementById("price").value);
+
+      const product = { id: id ? parseInt(id) : 0, name, description, price };
+
+      if (id) {
+        await fetch(`${apiUrl}/${id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(product)
+        });
+      } else {
+        await fetch(apiUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(product)
+        });
+      }
+
+      document.getElementById("productForm").reset();
+      loadProducts();
+    }
+
+    async function editProduct(id) {
+      const res = await fetch(`${apiUrl}/${id}`);
+      const p = await res.json();
+      document.getElementById("productId").value = p.id;
+      document.getElementById("name").value = p.name;
+      document.getElementById("description").value = p.description;
+      document.getElementById("price").value = p.price;
+    }
+
+    async function deleteProduct(id) {
+      if (confirm("¿Seguro que deseas eliminar este producto?")) {
+        await fetch(`${apiUrl}/${id}`, { method: "DELETE" });
+        loadProducts();
+      }
+    }
+
+    document.getElementById("productForm").addEventListener("submit", saveProduct);
+    loadProducts();
+  </script>
+</body>
+</html>
