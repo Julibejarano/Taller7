@@ -20,7 +20,7 @@ public class Program
 
         var app = builder.Build();
 
-        // Swagger (para probar la API fácilmente)
+        // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
@@ -31,6 +31,9 @@ public class Program
         app.UseAuthorization();
         app.UseStaticFiles();
         app.MapControllers();
+
+        // Add default route for root path
+        app.MapGet("/", () => Results.Redirect("/index.html"));
 
         app.Run();
 
